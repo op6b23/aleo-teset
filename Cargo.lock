@@ -1849,14 +1849,17 @@ checksum = "0744126afe1a6dd7f394cb50a716dbe086cb06e255e53d8d0185d82828358fb5"
 
 [[package]]
 name = "pea2pea"
-version = "0.33.0"
+version = "0.43.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "348fe4a211a16afef08c2c2004e903c72fa5684b8faa9934559e8058c178bd11"
+checksum = "1f2b092740e9329365f9abdf3ad027720711d8ad9ac4603405bf3d88b7385a6c"
 dependencies = [
  "async-trait",
+ "bytes",
+ "futures-util",
  "once_cell",
  "parking_lot 0.12.0",
  "tokio",
+ "tokio-util 0.7.0",
  "tracing",
 ]
 
